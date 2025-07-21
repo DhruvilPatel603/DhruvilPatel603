@@ -33,23 +33,6 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 
 ---
 
-### 🏆 Achievements & Certifications
-
-* **Nvidia Deep Learning Institute:** Fundamentals of Accelerated Computing with CUDA Python.
-* Check out my LeetCode progress!
-
-<p align="center">
-  <a href="https://leetcode.com/u/PatelDhruvil/">
-    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode Profile"/>
-  </a>
-</p>
-<p align="center">
-    <img src="https://leetcard.jacoblin.cool/PatelDhruvil?theme=dark&font=Fira%20Code" alt="Dhruvil's LeetCode Stats" />
-</p>
-
-
----
-
 ### 🌐 Let's Connect!
 
 <p align="center">
