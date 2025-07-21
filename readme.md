@@ -1,4 +1,8 @@
-<h1><div align="center">**Hi, I'm Dhruvil Patel** 👋</div></h1>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=3397F0&center=true&vCenter=true&repeat=true&width=500&lines=Hi, I'm Dhruvil Patel 👋;An AI/ML Enthusiast;A Full-Stack Developer" alt="Typing SVG" />
+  </a>
+</p>
 
 ---
 
