@@ -58,7 +58,7 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DhruvilPatel603&show_icons=true&theme=vision-friendly-dark" alt="Dhruvil Patel's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvilPatel603&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
+<img width="325" src="https://github-readme-stats.vercel.app/api/top-langs?username=DhruvilPatel603&theme=vision-friendly-dark&layout=donut&hide=css&langs_count=8&border_radius=10&show_icons=true&locale=en" alt="DhruvilPatel603's Most Used Languages" />
 </p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=DhruvilPatel603&theme=radical&rank=-,A,B,C,SECRET" alt="GitHub Trophies" />
