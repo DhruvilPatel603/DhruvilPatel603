@@ -10,8 +10,7 @@
 
 ### About Me
 
-Hello! I'm a final year B.Tech student at **Charusat University** with a deep passion for building intelligent and efficient applications. My journey into tech has led me to the fascinating world of Artificial Intelligence and Machine Learning, and I'm currently expanding my skill set into full-stack development with Node.js.
-
+Hello! I'm a final year B.Tech student at **Charusat University** with a deep passion for building intelligent and efficient applications. My journey into tech has led me to the fascinating world of Artificial Intelligence and Machine Learning, and Backend Development.
 * 🌱 I’m currently learning and deepening my knowledge in **AI/ML and Node.js**.
 * 👯 I’m looking to collaborate on **innovative AI/ML projects or open-source web tools**.
 * 💬 Ask me about **Python, C++, foundational AI/ML concepts, and backend development**.
