@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=3397F0&center=true&vCenter=true&repeat=true&width=500&lines=Hi, I'm Dhruvil Patel 👋;An AI/ML Enthusiast;A Full-Stack Developer" alt="Typing SVG" />
-  </a>
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=3397F0&height=120&text=Dhruvil%20Patel&fontAlignY=38&fontSize=40&animation=fadeIn" alt="Header" />
 </p>
 
 ---
@@ -72,8 +70,9 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 ### My GitHub Stats & Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DhruvilPatel603&theme=radical&rank=-,A,B,C,SECRET" alt="GitHub Trophies" />
+  <img src="https://github-readme-stats.vercel.app/api?username=DhruvilPatel603&show_icons=true&theme=vision-friendly-dark" alt="Dhruvil Patel's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvilPatel603&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvilPatel603&layout=compact&theme=vision-friendly-dark" alt="Top Languages" />
+  <img src="https://github-profile-trophy.vercel.app/?username=DhruvilPatel603&theme=radical&rank=-,A,B,C,SECRET" alt="GitHub Trophies" />
 </p>
