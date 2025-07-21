@@ -67,6 +67,7 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 <p align="center"> 
   <img src="https://komarev.com/ghpvc/?username=DhruvilPatel603&label=Profile%20Visitors&color=blueviolet&style=flat-square" alt="Dhruvil Patel" /> 
 </p>
+
 ---
 
 ### My GitHub Stats & Trophies
