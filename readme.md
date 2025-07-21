@@ -83,3 +83,34 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 
 ---
 
+
+
+### 🚀 My Featured Project
+
+<div align="center">
+  <h3>SpeakEasy - Conversational AI Chatbot</h3>
+  
+  <a href="https://github.com/DhruvilPatel603/SpeakEasy" target="_blank">
+  </a>
+  
+  <br>
+  
+  <p>An intelligent chatbot application powered by the OpenAI API, designed to simulate natural and engaging conversations.</p>
+  
+  <a href="https://github.com/DhruvilPatel603/SpeakEasy" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvilPatel603&repo=SpeakEasy&layout=compact&theme=vision-friendly-dark" alt="Project Language Breakdown" />
+  </a>
+  
+  <p>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+    <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+  </p>
+
+  <p>
+    <a href="https://github.com/DhruvilPatel603/SpeakEasy" target="_blank">
+      <img src="https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white">
+    </a>
+  </p>
+</div>
