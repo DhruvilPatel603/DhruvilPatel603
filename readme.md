@@ -64,7 +64,9 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
-
+<p align="center"> 
+  <img src="https://komarev.com/ghpvc/?username=DhruvilPatel603&label=Profile%20Visitors&color=blueviolet&style=flat-square" alt="Dhruvil Patel" /> 
+</p>
 ---
 
 ### My GitHub Stats & Trophies
@@ -76,3 +78,7 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=DhruvilPatel603&theme=radical&rank=-,A,B,C,SECRET" alt="GitHub Trophies" />
 </p>
+
+
+---
+
