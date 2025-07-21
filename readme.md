@@ -97,9 +97,7 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
   
   <p>An intelligent chatbot application powered by the OpenAI API, designed to simulate natural and engaging conversations.</p>
   
-  <a href="https://github.com/DhruvilPatel603/SpeakEasy" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvilPatel603&repo=SpeakEasy&layout=compact&theme=vision-friendly-dark" alt="Project Language Breakdown" />
-  </a>
+  
   
   <p>
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
