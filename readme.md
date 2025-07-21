@@ -1,6 +1,4 @@
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=3397F0&center=true&vCenter=true&width=460&lines=Hey+there!+I'm+Dhruvil+Patel;I'm+a+final+year+B.Tech+student;Passionate+about+AI/ML+%26+Node.js;Welcome+to+my+GitHub+profile!" alt="Typing SVG" /></a>
-</p>
+<h1><div align="center">**Hi, I'm Dhruvil Patel** 👋</div></h1>
 
 ---
 
@@ -14,7 +12,7 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 
 * 🌱 I’m currently learning and deepening my knowledge in **AI/ML and Node.js**.
 * 👯 I’m looking to collaborate on **innovative AI/ML projects or open-source web tools**.
-* 💬 Ask me about **Python, foundational AI/ML concepts, and backend development**.
+* 💬 Ask me about **Python, C++, foundational AI/ML concepts, and backend development**.
 * ⚡ Fun fact: I believe the best way to learn is by building, one project at a time.
 
 </td>
@@ -25,9 +23,8 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 <p align="center">
   <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
+  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
   <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="40" height="40"/> </a>
-  <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" alt="scikitlearn" width="40" height="40"/> </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/> </a>
 </p>
 </td>
 </tr>
