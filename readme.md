@@ -61,12 +61,6 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 
 ---
 
-### 🧠 LeetCode Stats
-
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/PatelDhruvil?theme=unicorn&font=Zen%20Kaku%20Gothic%20New&ext=heatmap)](https://leetcode.com/u/PatelDhruvil/)
-
----
 
 ### 📊 My GitHub Stats
 
