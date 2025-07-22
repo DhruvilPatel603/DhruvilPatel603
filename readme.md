@@ -2,6 +2,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=3397F0&height=120&text=Welcome&fontAlignY=38&fontSize=40&animation=fadeIn" alt="Header" />
 </p>
 <div align="center">
+<h3 align="center">You're Visitor Number</h3>
 <p align="center"> 
   <img src="https://count.getloli.com/get/@DhruvilPatel603?theme=3d-num" alt="Profile Views" />
 </p>
