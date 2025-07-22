@@ -2,6 +2,9 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=3397F0&height=120&text=Welcome&fontAlignY=38&fontSize=40&animation=fadeIn" alt="Header" />
 </p>
 <div align="center">
+<p align="center"> 
+  <img src="https://count.getloli.com/get/@DhruvilPatel603?theme=3d-num" alt="Profile Views" />
+</p>
 
 ---
 
@@ -48,9 +51,7 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
-<p align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=DhruvilPatel603&label=Profile%20Visitors&color=blueviolet&style=flat-square" alt="Dhruvil Patel" /> 
-</p>
+
 
 ---
 
