@@ -1,5 +1,26 @@
 <p align="center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=3397F0&height=120&text=Welcome&fontAlignY=38&fontSize=40&animation=fadeIn" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3397F0&height=180&text=Welcome!&animation=fadeIn&fontAlignY=40&fontSize=60" />
+</p>
+
+<div align="center">
+
+### Hi there, I'm a Developer, Creator, and Thinker 👋
+
+</div>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/dhruvil-patel-27a20725b/">
+    <img src="https://img.shields.io/badge/🚀%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://discord.gg/hBu2Z9ujnP">
+    <img src="https://img.shields.io/badge/💬%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+  </a>
+  <a href="https://www.codechef.com/users/pateldhruvil">
+    <img src="https://img.shields.io/badge/👨‍🍳%20CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
+  </a>
+  <a href="https://leetcode.com/u/PatelDhruvil/">
+    <img src="https://img.shields.io/badge/🧠%20LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
+  </a>
 </p>
 
 <div align="center">
@@ -38,25 +59,6 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 </td>
 </tr>
 </table>
-
----
-
-### 🌐 Let's Connect!
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/dhruvil-patel-27a20725b/">
-    <img src="https://img.shields.io/badge/🚀%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://discord.gg/hBu2Z9ujnP">
-    <img src="https://img.shields.io/badge/💬%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
-  <a href="https://www.codechef.com/users/pateldhruvil">
-    <img src="https://img.shields.io/badge/👨‍🍳%20CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
-  </a>
-  <a href="https://leetcode.com/u/PatelDhruvil/">
-    <img src="https://img.shields.io/badge/🧠%20LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
-  </a>
-</p>
 
 
 ---
