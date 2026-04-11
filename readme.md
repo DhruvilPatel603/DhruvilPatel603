@@ -88,23 +88,29 @@ Hello! I'm a final-year B.Tech student at **Charusat University** preparing for 
   <table>
     <tr>
       <td width="50%" align="center">
-        <a href="https://chromewebstore.google.com/detail/attendance-dashboard-for/onpaadhefkkhnpogpkhncalieojnjjcf" target="_blank" style="text-decoration: none; color: inherit;">
-          <h3>Attendance Dashboard Extension</h3>
-        </a>
+        <h3>Attendance Dashboard Extension</h3>
         <p>A custom Chrome extension featuring a modern glassmorphism UI to track and manage productivity.</p>
         <p>
           <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
           <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" />
         </p>
+        <p>
+          <a href="https://chromewebstore.google.com/detail/attendance-dashboard-for/onpaadhefkkhnpogpkhncalieojnjjcf" target="_blank">
+            <img src="https://img.shields.io/badge/🔗_View_Extension-181717?style=for-the-badge" alt="View Extension">
+          </a>
+        </p>
       </td>
       <td width="50%" align="center">
-        <a href="https://agroresiduescm.live/" target="_blank" style="text-decoration: none; color: inherit;">
-          <h3>Agro Residue SCM</h3>
-        </a>
+        <h3>Agro Residue SCM</h3>
         <p>A multi-tenant agriculture supply chain management platform deployed on live servers.</p>
         <p>
           <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
           <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+        </p>
+        <p>
+          <a href="https://agroresiduescm.live/" target="_blank">
+            <img src="https://img.shields.io/badge/🌐_Visit_Website-181717?style=for-the-badge" alt="Visit Website">
+          </a>
         </p>
       </td>
     </tr>
