@@ -35,15 +35,14 @@
 <tr>
 <td valign="top" width="60%">
 
-
 ### About Me
 
-Hello! I'm a final year B.Tech student at **Charusat University** with a deep passion for building intelligent and efficient applications. My journey into tech has led me to the fascinating world of Artificial Intelligence and Machine Learning, and Backend Development.
+Hello! I'm a final-year B.Tech student at **Charusat University** preparing for my major project viva. I have a deep passion for building scalable full-stack applications, mobile experiences, and handy browser tools. 
 
-* 🌱 I’m currently learning and deepening my knowledge in **AI/ML and Backend Projects**.
-* 👯 I’m looking to collaborate on **innovative AI/ML projects or open-source web tools**.
-* 💬 Ask me about **Python, C++, foundational AI/ML concepts, and backend development**.
-* ⚡ Fun fact: I believe the best way to learn is by building, one project at a time.
+* 🌱 I’m currently managing live servers for **Agro Residue SCM** and developing utility **Chrome extensions**.
+* 🔭 I’m also designing multi-tenant web platforms and deepening my knowledge in backend architecture.
+* 💬 Ask me about **Node.js backends, LAMP stack architecture, or Android Development**.
+* ⚡ Fun fact: When I'm not coding, I'm likely doing world-building and creative writing for my fantasy novel!
 
 </td>
 <td valign="top" width="40%">
@@ -54,15 +53,18 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
   <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
   <a href="https://isocpp.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-  <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" alt="tensorflow" width="40" height="40"/> </a>
+  <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40"/> </a>
+  <br>
+  <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" alt="android" width="40" height="40"/> </a>
+  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="firebase" width="40" height="40"/> </a>
+  <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/> </a>
 </p>
 </td>
 </tr>
 </table>
 
-
 ---
-
 
 ### 📊 My GitHub Stats
 
@@ -79,27 +81,51 @@ Hello! I'm a final year B.Tech student at **Charusat University** with a deep pa
 
 ---
 
-### 🚀 My Featured Project
+### 🚀 Featured Projects
 
 <div align="center">
-  <h3>SpeakEasy - Conversational AI Chatbot</h3>
   
-  <a href="https://github.com/DhruvilPatel603/SpeakEasy" target="_blank"></a>
-  
-  <br>
-  
-  <p>An intelligent chatbot application powered by the OpenAI API, designed to simulate natural and engaging conversations.</p>
-  
-  <p>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-    <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-  </p>
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://chromewebstore.google.com/detail/attendance-dashboard-for/onpaadhefkkhnpogpkhncalieojnjjcf" target="_blank" style="text-decoration: none; color: inherit;">
+          <h3>Attendance Dashboard Extension</h3>
+        </a>
+        <p>A custom Chrome extension featuring a modern glassmorphism UI to track and manage productivity.</p>
+        <p>
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+          <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://agroresiduescm.live/" target="_blank" style="text-decoration: none; color: inherit;">
+          <h3>Agro Residue SCM</h3>
+        </a>
+        <p>A multi-tenant agriculture supply chain management platform deployed on live servers.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+          <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <h3>Online Lab Management</h3>
+        <p>A digitized pathology lab operations system with multi-portal access and secure data handling.</p>
+        <p>
+          <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%" align="center">
+        <h3>SpeakEasy AI Chatbot</h3>
+        <p>An intelligent conversational app powered by OpenAI API designed to simulate natural engagement.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+          <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+        </p>
+      </td>
+    </tr>
+  </table>
 
-  <p>
-    <a href="https://github.com/DhruvilPatel603/SpeakEasy" target="_blank">
-      <img src="https://img.shields.io/badge/View_Code-181717?style=for-the-badge&logo=github&logoColor=white">
-    </a>
-  </p>
 </div>
