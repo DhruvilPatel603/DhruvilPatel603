@@ -1,137 +1,128 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=3397F0&height=180&text=Welcome!&animation=fadeIn&fontAlignY=40&fontSize=60" />
-</p>
-
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3397F0&height=220&text=Hi,%20I'm%20Dhruvil%20Patel!&animation=fadeIn&fontAlignY=35&fontSize=50&desc=Developer%20|%20Creator%20|%20Thinker&descAlignY=60&descAlign=60" />
 
-### Hi there, I'm a Developer, Creator, and Thinker 👋
-
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3397F0&center=true&vCenter=true&width=600&lines=Full-Stack+Web+Developer;Android+%26+Kotlin+Enthusiast;Crafting+Chrome+Extensions;Building+Scalable+Platforms" alt="Typing SVG" />
+  </a>
+  
+  <br/>
+  
+  <p align="center">
+    <a href="https://www.linkedin.com/in/dhruvil-patel-27a20725b/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://discord.gg/hBu2Z9ujnP"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
+    <a href="https://www.codechef.com/users/pateldhruvil"><img src="https://img.shields.io/badge/CodeChef-%235B4638.svg?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/></a>
+    <a href="https://leetcode.com/u/PatelDhruvil/"><img src="https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
+  </p>
+  
+  <img src="https://count.getloli.com/get/@DhruvilPatel603?theme=asoul" alt="Profile Views" />
 </div>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/dhruvil-patel-27a20725b/">
-    <img src="https://img.shields.io/badge/🚀%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://discord.gg/hBu2Z9ujnP">
-    <img src="https://img.shields.io/badge/💬%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
-  <a href="https://www.codechef.com/users/pateldhruvil">
-    <img src="https://img.shields.io/badge/👨‍🍳%20CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/>
-  </a>
-  <a href="https://leetcode.com/u/PatelDhruvil/">
-    <img src="https://img.shields.io/badge/🧠%20LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/>
-  </a>
-</p>
+---
+
+### 👨‍💻 A Bit About Me
+
+> **Bridging the gap between scalable backend systems, native mobile experiences, and intuitive user interfaces.**
+
+I'm a final-year B.Tech student at **Charusat University** with a relentless drive for building products that solve real problems. Whether it's managing multi-tenant live servers or designing a sleek glassmorphism UI for a browser tool, I love the entire lifecycle of development.
+
+- 🚀 **Currently Building:** Live server architecture for **Agro Residue SCM** and productivity-focused **Chrome extensions**.
+- 📱 **Mobile Focus:** Developing feature-rich native Android apps (like my music streaming app, *STREAMIX*) using **Kotlin, Jetpack Compose, and MVVM**.
+- 💡 **Stack of Choice:** Node.js, Express, LAMP stack, and Firebase.
+- 📚 **Beyond Coding:** I'm an aspiring author actively world-building and writing my own high-fantasy novel! 🐉✨
+
+---
+
+### 🛠️ Arsenal & Tech Stack
 
 <div align="center">
-<h3 align="center">You're Visitor Number</h3>
-<p align="center"> 
-  <img src="https://count.getloli.com/get/@DhruvilPatel603?theme=3d-num" alt="Profile Views" />
-</p>
+  
+**Languages** <br>
+<img src="https://img.shields.io/badge/C++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
 
----
+**Frontend & Mobile** <br>
+<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
+<img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white" alt="Jetpack Compose" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
 
-<table>
-<tr>
-<td valign="top" width="60%">
+**Backend & Databases** <br>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/Express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB" alt="Express.js" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
 
-### About Me
-
-Hello! I'm a final-year B.Tech student at **Charusat University** preparing for my major project viva. I have a deep passion for building scalable full-stack applications, mobile experiences, and handy browser tools. 
-
-* 🌱 I’m currently managing live servers for **Agro Residue SCM** and developing utility **Chrome extensions**.
-* 🔭 I’m also designing multi-tenant web platforms and deepening my knowledge in backend architecture.
-* 💬 Ask me about **Node.js backends, LAMP stack architecture, or Android Development**.
-* ⚡ Fun fact: When I'm not coding, I'm likely doing world-building and creative writing for my fantasy novel!
-
-</td>
-<td valign="top" width="40%">
-
-### My Core Tech Stack
-
-<p align="center">
-  <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-  <a href="https://isocpp.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-  <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40"/> </a>
-  <br>
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" alt="android" width="40" height="40"/> </a>
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="firebase" width="40" height="40"/> </a>
-  <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/> </a>
-</p>
-</td>
-</tr>
-</table>
-
----
-
-### 📊 My GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DhruvilPatel603&show_icons=true&theme=vision-friendly-dark" alt="Dhruvil Patel's GitHub Stats" />
-  <img width="325" src="https://github-readme-stats.vercel.app/api/top-langs?username=DhruvilPatel603&theme=vision-friendly-dark&layout=donut&hide=css&langs_count=8&border_radius=10&show_icons=true&locale=en" alt="DhruvilPatel603's Most Used Languages" />
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph.svg">
-</picture>
+</div>
 
 ---
 
 ### 🚀 Featured Projects
 
 <div align="center">
-  
   <table>
     <tr>
       <td width="50%" align="center">
-        <h3>Attendance Dashboard Extension</h3>
+        <h3>⏱️ Attendance Dashboard</h3>
         <p>A custom Chrome extension featuring a modern glassmorphism UI to track and manage productivity.</p>
         <p>
-          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-          <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" />
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+          <img src="https://img.shields.io/badge/Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white" />
         </p>
-        <p>
-          <a href="https://chromewebstore.google.com/detail/attendance-dashboard-for/onpaadhefkkhnpogpkhncalieojnjjcf" target="_blank">
-            <img src="https://img.shields.io/badge/🔗_View_Extension-181717?style=for-the-badge" alt="View Extension">
-          </a>
-        </p>
+        <a href="https://chromewebstore.google.com/detail/attendance-dashboard-for/onpaadhefkkhnpogpkhncalieojnjjcf" target="_blank">
+          <img src="https://img.shields.io/badge/🔗_View_Extension-181717?style=for-the-badge" alt="View Extension">
+        </a>
       </td>
       <td width="50%" align="center">
-        <h3>Agro Residue SCM</h3>
-        <p>A multi-tenant agriculture supply chain management platform deployed on live servers.</p>
+        <h3>🎵 STREAMIX (Musify)</h3>
+        <p>A feature-rich music streaming application leveraging modern MVVM Android architecture.</p>
         <p>
-          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-          <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+          <img src="https://img.shields.io/badge/Kotlin-%237F52FF.svg?style=flat-square&logo=kotlin&logoColor=white" />
+          <img src="https://img.shields.io/badge/Compose-4285F4?style=flat-square&logo=android&logoColor=white" />
         </p>
-        <p>
-          <a href="https://agroresiduescm.live/" target="_blank">
-            <img src="https://img.shields.io/badge/🌐_Visit_Website-181717?style=for-the-badge" alt="Visit Website">
-          </a>
-        </p>
+        <br/>
       </td>
     </tr>
     <tr>
       <td width="50%" align="center">
-        <h3>Online Lab Management</h3>
-        <p>A digitized pathology lab operations system with multi-portal access and secure data handling.</p>
+        <h3>🌱 Agro Residue SCM</h3>
+        <p>A multi-tenant agriculture supply chain management platform deployed on live servers.</p>
         <p>
-          <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-          <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+          <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+          <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
         </p>
+        <a href="https://agroresiduescm.live/" target="_blank">
+          <img src="https://img.shields.io/badge/🌐_Visit_Website-181717?style=for-the-badge" alt="Visit Website">
+        </a>
       </td>
       <td width="50%" align="center">
-        <h3>SpeakEasy AI Chatbot</h3>
-        <p>An intelligent conversational app powered by OpenAI API designed to simulate natural engagement.</p>
+        <h3>🔬 Online Lab Management</h3>
+        <p>A digitized pathology lab operations system with multi-portal access and secure data handling.</p>
         <p>
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-          <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+          <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" />
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
         </p>
+        <br/>
       </td>
     </tr>
   </table>
-
 </div>
+
+---
+
+### 📈 GitHub Analytics
+
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph.svg">
+  </picture>
+</div>
+
+<p align="center">
+  <i>Let's build something awesome together! 🚀</i>
+</p>
