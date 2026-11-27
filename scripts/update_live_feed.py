@@ -635,12 +635,103 @@ def update_cws_cards() -> None:
     print(f"Updated CWS stats: Attendance={att['users']} users ({att['rating']}★), NetworkMeter={net['users']} users ({net['rating']}★)")
 
 
+def update_pacman_cyber() -> None:
+    """Fetch pacman-contribution-graph-dark.svg from output branch and reskin into a cyber arcade card."""
+    url = f"https://raw.githubusercontent.com/{USER}/{USER}/output/pacman-contribution-graph-dark.svg"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": f"{USER}-profile-live-feed"})
+        raw = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", "ignore")
+    except Exception as e:
+        print("Warning: could not fetch pacman SVG:", e)
+        return
+
+    # Extract viewBox/dimensions and inner content after opening <svg ...>
+    m_open = re.match(r"\s*<svg\b([^>]*)>", raw, re.S)
+    if not m_open:
+        return
+    attrs = m_open.group(1)
+    w_m = re.search(r'width="(\d+)"', attrs)
+    h_m = re.search(r'height="(\d+)"', attrs)
+    inner_w = int(w_m.group(1)) if w_m else 1166
+    inner_h = int(h_m.group(1)) if h_m else 184
+
+    inner = raw[m_open.end() :]
+    inner = re.sub(r"</svg>\s*$", "", inner.strip())
+
+    # Remove solid background rect from pacman SVG so it blends into our #090d16 card
+    inner = inner.replace('<rect width="100%" height="100%" fill="#0d1117"/>', "")
+
+    # Reskin maze, grid, and contribution palette to Cyber-Obsidian + Neon
+    color_map = {
+        "#0d1117": "#090d16",
+        "#161b22": "#0e1526",
+        "#ffffff": "#22d3ee",
+        "#8b949e": "#94a3b8",
+        "#808080": "#334155",
+        "#0e4429": "#6d28d9",
+        "#006d32": "#8b5cf6",
+        "#26a641": "#f43f8e",
+        "#39d353": "#00f0ff",
+    }
+    for old_c, new_c in color_map.items():
+        inner = inner.replace(old_c, new_c).replace(old_c.upper(), new_c)
+
+    # Make month text monospace
+    inner = inner.replace('font-size="10"', 'font-size="10" font-family="ui-monospace, Menlo, Consolas, monospace"')
+
+    arcade_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 272" width="100%" role="img" aria-label="Cyber Pac-Man Contribution Arcade">
+  <defs>
+    <linearGradient id="pacBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="35%" stop-color="#00f0ff"/>
+      <stop offset="70%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#f43f8e"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }}
+    .pac-dot {{ animation: pacBlink 1.5s ease-in-out infinite; }}
+    @keyframes pacBlink {{ 0%,100% {{ opacity: 1; }} 50% {{ opacity: 0.3; }} }}
+  </style>
+
+  <rect x="2" y="2" width="1196" height="268" rx="14" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="18" y="2" width="1164" height="3" rx="1.5" fill="url(#pacBar)" opacity="0.9"/>
+
+  <!-- Arcade Header -->
+  <circle class="pac-dot" cx="28" cy="27" r="4.5" fill="#facc15"/>
+  <text class="mono" x="42" y="31" font-size="12" fill="#e2e8f0" letter-spacing="1.2">ARCADE_TELEMETRY // <tspan fill="#22d3ee">PACMAN_CONTRIBUTION_MAZE</tspan></text>
+  <text class="mono" x="1174" y="31" text-anchor="end" font-size="11" fill="#64748b">PLAYER: <tspan fill="#c4b5fd">{esc(USER)}</tspan>  ·  <tspan fill="#facc15">[ 1UP READY ]</tspan></text>
+
+  <!-- Nested Animated Pac-Man Grid -->
+  <svg x="17" y="48" width="1166" height="184" viewBox="0 0 {inner_w} {inner_h}">
+    {inner}
+  </svg>
+
+  <!-- Cyber Legend Footer -->
+  <line x1="24" y1="240" x2="1176" y2="240" stroke="#1e293b" stroke-width="1"/>
+  <text class="mono" x="26" y="257" font-size="10.5" fill="#64748b">MAZE // TRON_CYAN · COMMIT_NODES // NEON_SPECTRUM</text>
+  <g transform="translate(972, 247)">
+    <text class="mono" x="0" y="10" font-size="10" fill="#64748b">LESS</text>
+    <rect x="34" y="0" width="12" height="12" rx="3" fill="#0e1526" stroke="#1e293b"/>
+    <rect x="50" y="0" width="12" height="12" rx="3" fill="#6d28d9"/>
+    <rect x="66" y="0" width="12" height="12" rx="3" fill="#8b5cf6"/>
+    <rect x="82" y="0" width="12" height="12" rx="3" fill="#f43f8e"/>
+    <rect x="98" y="0" width="12" height="12" rx="3" fill="#00f0ff"/>
+    <text class="mono" x="118" y="10" font-size="10" fill="#64748b">MORE</text>
+  </g>
+</svg>
+'''
+    (ASSETS / "pacman-cyber.svg").write_text(arcade_svg, encoding="utf-8")
+    print("Updated pacman-cyber.svg")
+
+
 def main() -> None:
     prs = fetch_prs()
     commits = fetch_recent_commits(limit=5)
     update_pr_cards(prs)
     (ASSETS / "live-feed.svg").write_text(build_live_feed_svg(prs, commits), encoding="utf-8")
     update_cws_cards()
+    update_pacman_cyber()
     print(f"Updated PR cards ({len(prs)} PRs) and live-feed.svg ({len(commits)} commits/events).")
 
 

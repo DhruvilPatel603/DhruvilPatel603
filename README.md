@@ -148,11 +148,7 @@
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph.svg" width="100%" />
-</picture>
+<img src="./assets/pacman-cyber.svg" width="100%" alt="Cyber Pac-Man Contribution Arcade" />
 
 <br/>
 

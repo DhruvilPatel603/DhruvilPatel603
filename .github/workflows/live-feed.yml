@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/live-feed.svg assets/pr-overview.svg assets/pr-plexo.svg assets/pr-pragent.svg assets/pr-session.svg assets/header-oss.svg assets/proj-attendance.svg assets/proj-network-meter.svg assets/cws-traction.svg
+          git add assets/live-feed.svg assets/pr-overview.svg assets/pr-plexo.svg assets/pr-pragent.svg assets/pr-session.svg assets/header-oss.svg assets/proj-attendance.svg assets/proj-network-meter.svg assets/cws-traction.svg assets/pacman-cyber.svg
           if git diff --cached --quiet; then
             echo "No SVG changes detected."
           else
