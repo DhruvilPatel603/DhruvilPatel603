@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 370" width="100%" role="img" aria-label="About Me Terminal">
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+    .blink { animation: b 1.05s steps(2, start) infinite; }
+    @keyframes b { to { opacity: 0; } }
+  </style>
+  <rect x="2" y="2" width="676" height="366" rx="14" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+  <!-- Title Bar -->
+  <path d="M2 16 Q2 2 16 2 L664 2 Q678 2 678 16 L678 38 L2 38 Z" fill="#0f172a"/>
+  <circle cx="22" cy="20" r="5" fill="#f43f8e"/>
+  <circle cx="38" cy="20" r="5" fill="#f59e0b"/>
+  <circle cx="54" cy="20" r="5" fill="#10b981"/>
+  <text class="mono" x="76" y="24" font-size="12" fill="#94a3b8">dhruvil@cyberdeck: ~/identity/whoami.json</text>
+
+  <!-- Line Numbers Gutter -->
+  <rect x="2" y="38" width="42" height="330" fill="#070a12"/>
+  <g class="mono" font-size="12" fill="#475569" text-anchor="end">
+    <text x="34" y="64">01</text>
+    <text x="34" y="88">02</text>
+    <text x="34" y="112">03</text>
+    <text x="34" y="136">04</text>
+    <text x="34" y="160">05</text>
+    <text x="34" y="184">06</text>
+    <text x="34" y="208">07</text>
+    <text x="34" y="232">08</text>
+    <text x="34" y="256">09</text>
+    <text x="34" y="280">10</text>
+    <text x="34" y="304">11</text>
+    <text x="34" y="328">12</text>
+    <text x="34" y="352">13</text>
+  </g>
+
+  <!-- JSON Content -->
+  <g class="mono" font-size="12.5">
+    <text x="56" y="64" fill="#64748b">$ cat /proc/whoami.json</text>
+    <text x="56" y="88" fill="#94a3b8">{</text>
+    <text x="72" y="112" fill="#00f0ff">"operator"<tspan fill="#94a3b8">: </tspan><tspan fill="#f8fafc">"Dhruvil Patel"</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="72" y="136" fill="#00f0ff">"education"<tspan fill="#94a3b8">: </tspan><tspan fill="#e2e8f0">"B.Tech (Final Year) @ Charusat University"</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="72" y="160" fill="#00f0ff">"focus"<tspan fill="#94a3b8">: [</tspan><tspan fill="#a5f3fc">"Scalable Backends"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#c4b5fd">"Native Android"</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#f9a8d4">"Chrome Ext"</tspan><tspan fill="#94a3b8">],</tspan></text>
+    <text x="72" y="184" fill="#00f0ff">"live_work"<tspan fill="#94a3b8">: </tspan><tspan fill="#e2e8f0">"Multi-tenant servers for Agro Residue SCM"</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="72" y="208" fill="#00f0ff">"mobile_lab"<tspan fill="#94a3b8">: </tspan><tspan fill="#e2e8f0">"STREAMIX (Kotlin, Jetpack Compose, MVVM)"</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="72" y="232" fill="#00f0ff">"backend_core"<tspan fill="#94a3b8">: </tspan><tspan fill="#e2e8f0">"Node.js, Express, LAMP Stack, Firebase"</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="72" y="256" fill="#00f0ff">"exploring"<tspan fill="#94a3b8">: </tspan><tspan fill="#e2e8f0">"RAG Pipelines, LangChain &amp; AI Assistants"</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="72" y="280" fill="#00f0ff">"after_hours"<tspan fill="#94a3b8">: </tspan><tspan fill="#fbbf24">"World-building &amp; writing a high-fantasy novel 🐉"</tspan></text>
+    <text x="56" y="304" fill="#94a3b8">}</text>
+    <text x="56" y="332" fill="#10b981">[OK] <tspan fill="#64748b">Loaded profile telemetry in 0.012s</tspan></text>
+    <text x="56" y="354" fill="#00f0ff">dhruvil@cyberdeck:~$ <tspan class="blink" fill="#f43f8e">█</tspan></text>
+  </g>
+</svg>

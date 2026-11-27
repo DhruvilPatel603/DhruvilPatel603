@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 370" width="100%" role="img" aria-label="Active Quests HUD">
+  <defs>
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="barPurp" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#f43f8e"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .glow { animation: glowAnim 2.8s ease-in-out infinite; }
+    @keyframes glowAnim { 0%,100% { opacity: 0.75; } 50% { opacity: 1; } }
+  </style>
+
+  <rect x="2" y="2" width="436" height="366" rx="14" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="2" y="2" width="436" height="4" rx="2" fill="url(#barPurp)"/>
+
+  <text class="mono" x="22" y="32" font-size="11.5" fill="#8b5cf6" letter-spacing="1.4">MISSION_BOARD // ACTIVE</text>
+  <text class="sans" x="22" y="56" font-size="18" font-weight="800" fill="#f8fafc">QUEST TELEMETRY</text>
+
+  <!-- Pixel Dragon Emblem -->
+  <g class="glow"><rect x="398" y="14" width="5.2" height="5.2" fill="#f43f8e"/><rect x="403" y="14" width="5.2" height="5.2" fill="#f43f8e"/><rect x="393" y="19" width="5.2" height="5.2" fill="#f43f8e"/><rect x="398" y="19" width="5.2" height="5.2" fill="#f43f8e"/><rect x="403" y="19" width="5.2" height="5.2" fill="#f43f8e"/><rect x="408" y="19" width="5.2" height="5.2" fill="#f43f8e"/><rect x="388" y="24" width="5.2" height="5.2" fill="#f43f8e"/><rect x="393" y="24" width="5.2" height="5.2" fill="#f43f8e"/><rect x="398" y="24" width="5.2" height="5.2" fill="#00f0ff"/><rect x="403" y="24" width="5.2" height="5.2" fill="#00f0ff"/><rect x="408" y="24" width="5.2" height="5.2" fill="#f43f8e"/><rect x="413" y="24" width="5.2" height="5.2" fill="#f43f8e"/><rect x="383" y="29" width="5.2" height="5.2" fill="#f43f8e"/><rect x="388" y="29" width="5.2" height="5.2" fill="#f43f8e"/><rect x="393" y="29" width="5.2" height="5.2" fill="#f43f8e"/><rect x="398" y="29" width="5.2" height="5.2" fill="#f43f8e"/><rect x="403" y="29" width="5.2" height="5.2" fill="#f43f8e"/><rect x="408" y="29" width="5.2" height="5.2" fill="#f43f8e"/><rect x="413" y="29" width="5.2" height="5.2" fill="#f43f8e"/><rect x="418" y="29" width="5.2" height="5.2" fill="#f43f8e"/><rect x="378" y="34" width="5.2" height="5.2" fill="#f43f8e"/><rect x="383" y="34" width="5.2" height="5.2" fill="#f43f8e"/><rect x="393" y="34" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="398" y="34" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="403" y="34" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="408" y="34" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="418" y="34" width="5.2" height="5.2" fill="#f43f8e"/><rect x="423" y="34" width="5.2" height="5.2" fill="#f43f8e"/><rect x="393" y="39" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="398" y="39" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="403" y="39" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="408" y="39" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="388" y="44" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="393" y="44" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="398" y="44" width="5.2" height="5.2" fill="#00f0ff"/><rect x="403" y="44" width="5.2" height="5.2" fill="#00f0ff"/><rect x="408" y="44" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="413" y="44" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="383" y="49" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="388" y="49" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="393" y="49" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="398" y="49" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="403" y="49" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="408" y="49" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="413" y="49" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="418" y="49" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="383" y="54" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="388" y="54" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="413" y="54" width="5.2" height="5.2" fill="#8b5cf6"/><rect x="418" y="54" width="5.2" height="5.2" fill="#8b5cf6"/></g>
+
+  <!-- Quest 1 -->
+  <rect x="20" y="76" width="400" height="62" rx="10" fill="#0e1526" stroke="#1e293b"/>
+  <text class="mono" x="34" y="96" font-size="10.5" fill="#00f0ff">[MAIN QUEST] LIVE INFRA</text>
+  <text class="mono" x="406" y="96" text-anchor="end" font-size="10.5" fill="#10b981">ONLINE</text>
+  <text class="sans" x="34" y="116" font-size="13.5" font-weight="700" fill="#e2e8f0">Agro Residue SCM Servers</text>
+  <rect x="34" y="124" width="372" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="34" y="124" width="335" height="5" rx="2.5" fill="url(#barCyan)"/>
+
+  <!-- Quest 2 -->
+  <rect x="20" y="148" width="400" height="62" rx="10" fill="#0e1526" stroke="#1e293b"/>
+  <text class="mono" x="34" y="168" font-size="10.5" fill="#c4b5fd">[MOBILE] KOTLIN · COMPOSE</text>
+  <text class="mono" x="406" y="168" text-anchor="end" font-size="10.5" fill="#c4b5fd">MVVM</text>
+  <text class="sans" x="34" y="188" font-size="13.5" font-weight="700" fill="#e2e8f0">STREAMIX Music App</text>
+  <rect x="34" y="196" width="372" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="34" y="196" width="318" height="5" rx="2.5" fill="url(#barPurp)"/>
+
+  <!-- Quest 3 -->
+  <rect x="20" y="220" width="400" height="62" rx="10" fill="#0e1526" stroke="#1e293b"/>
+  <text class="mono" x="34" y="240" font-size="10.5" fill="#38bdf8">[EXTENSION] CHROME STORE</text>
+  <text class="mono" x="406" y="240" text-anchor="end" font-size="10.5" fill="#00f0ff">SHIPPED</text>
+  <text class="sans" x="34" y="260" font-size="13.5" font-weight="700" fill="#e2e8f0">Attendance Dashboard UI</text>
+  <rect x="34" y="268" width="372" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="34" y="268" width="372" height="5" rx="2.5" fill="#00f0ff"/>
+
+  <!-- Quest 4 -->
+  <rect x="20" y="292" width="400" height="62" rx="10" fill="#0e1526" stroke="#1e293b"/>
+  <text class="mono" x="34" y="312" font-size="10.5" fill="#f472b6">[SIDE LORE] CREATIVE WRITING</text>
+  <text class="mono" x="406" y="312" text-anchor="end" font-size="10.5" fill="#fbbf24">IN PROGRESS</text>
+  <text class="sans" x="34" y="332" font-size="13.5" font-weight="700" fill="#e2e8f0">High-Fantasy Novel &amp; Lore</text>
+  <rect x="34" y="340" width="372" height="5" rx="2.5" fill="#1e293b"/>
+  <rect x="34" y="340" width="248" height="5" rx="2.5" fill="#f43f8e"/>
+</svg>
