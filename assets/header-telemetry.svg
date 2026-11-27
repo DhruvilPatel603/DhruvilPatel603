@@ -15,7 +15,7 @@
   <rect x="4" y="6" width="1192" height="46" rx="10" fill="#090d16" stroke="#1e293b" stroke-width="1.2"/>
   <rect x="4" y="6" width="6" height="46" rx="3" fill="#f43f8e"/>
   <rect x="24" y="17" width="40" height="24" rx="6" fill="#0f172a" stroke="#f43f8e" stroke-opacity="0.6"/>
-  <text class="mono" x="44" y="33" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f43f8e">04</text>
+  <text class="mono" x="44" y="33" text-anchor="middle" font-size="12.5" font-weight="700" fill="#f43f8e">05</text>
 
   <text class="sans" x="80" y="35" font-size="19" font-weight="800" fill="#f8fafc" letter-spacing="1.6">SYSTEM_TELEMETRY</text>
   <line x1="390" y1="29" x2="960" y2="29" stroke="url(#hdrLine)" stroke-width="1.2"/>

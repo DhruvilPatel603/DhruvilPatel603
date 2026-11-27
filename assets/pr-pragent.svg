@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 198" width="100%" role="img" aria-label="The-PR-Agent/pr-agent Pull Requests">
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style>
+  <rect x="2" y="2" width="386" height="194" rx="14" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="22" y="2" width="96" height="3.5" rx="1.5" fill="#8b5cf6"/>
+
+  <text class="mono" x="24" y="30" font-size="10.5" fill="#64748b" letter-spacing="1">PYTHON // AI REVIEWER</text>
+  <rect x="288" y="16" width="78" height="24" rx="12" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.6"/>
+  <text class="mono" x="327" y="32" text-anchor="middle" font-size="11.5" font-weight="700" fill="#8b5cf6">2 PRs</text>
+
+  <text class="sans" x="24" y="58" font-size="17" font-weight="800" fill="#f8fafc">The-PR-Agent/pr-agent</text>
+
+  <text class="sans" x="24" y="86" font-size="12.5" fill="#cbd5e1">Exposed head CI status/staleness &amp; added</text>
+  <text class="sans" x="24" y="106" font-size="12.5" fill="#94a3b8">deterministic risk checks for sensitive paths.</text>
+
+  <!-- Stacked Merged/Open/Closed Bar -->
+  <rect x="24" y="128" width="342" height="7" rx="3.5" fill="#050811"/>
+  <rect x="24" y="128" width="340" height="7" rx="3.5" fill="#10b981"/>
+
+  <text class="mono" x="24" y="154" font-size="10.5" fill="#94a3b8">2 MERGED</text>
+
+  <line x1="24" y1="166" x2="366" y2="166" stroke="#1e293b" stroke-width="1"/>
+  <text class="mono" x="24" y="184" font-size="10.5" fill="#64748b">PR_LOG // VERIFIED</text>
+  <text class="mono" x="366" y="184" text-anchor="end" font-size="10.5" font-weight="700" fill="#8b5cf6">INSPECT PRs ▸</text>
+</svg>

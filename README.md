@@ -48,16 +48,9 @@
 
 <br/>
 
-<table width="100%">
-  <tr>
-    <td width="61%" valign="top">
-      <img src="./assets/about-terminal.svg" width="100%" alt="Whoami Terminal" />
-    </td>
-    <td width="39%" valign="top">
-      <img src="./assets/quest-log.svg" width="100%" alt="Active Quests HUD" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/about-terminal.svg" width="60%" valign="top" alt="Whoami Terminal" />&nbsp;<img src="./assets/quest-log.svg" width="38.8%" valign="top" alt="Active Quests HUD" />
+</div>
 
 <br/>
 
@@ -136,87 +129,20 @@
 <br/>
 
 <!-- ======================================================================= -->
-<!-- 03 // DEPLOYED ARTIFACTS: CLICKABLE CYBER PROJECT CARDS                 -->
+<!-- 03 // DEPLOYED ARTIFACTS: FULL-WIDTH CLICKABLE CYBER PROJECT CARDS      -->
 <!-- ======================================================================= -->
 
 <img src="./assets/header-projects.svg" width="100%" alt="03 // Deployed Artifacts" />
 
 <br/>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://chromewebstore.google.com/detail/attendance-dashboard-for/onpaadhefkkhnpogpkhncalieojnjjcf">
-        <img src="./assets/proj-attendance.svg" width="100%" alt="Attendance Dashboard Chrome Extension" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://agroresiduescm.live/">
-        <img src="./assets/proj-agro.svg" width="100%" alt="Agro Residue SCM Live Platform" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/DhruvilPatel603">
-        <img src="./assets/proj-streamix.svg" width="100%" alt="STREAMIX Android Music App" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/DhruvilPatel603/SGP-Sem-7">
-        <img src="./assets/proj-lab.svg" width="100%" alt="Online Diagnostic Lab Management System" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/DhruvilPatel603/Chatbot">
-        <img src="./assets/proj-chatbot.svg" width="100%" alt="RAG AI Chatbot" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/DhruvilPatel603/SpeakEasy">
-        <img src="./assets/proj-speakeasy.svg" width="100%" alt="SpeakEasy AI Assistant" />
-      </a>
-    </td>
-  </tr>
-</table>
-
-<details>
-  <summary><code>▸ $ ls -la ~/archives/more_repositories</code> &nbsp;—&nbsp; Explore additional public builds</summary>
+<div align="center">
+  <a href="https://chromewebstore.google.com/detail/attendance-dashboard-for/onpaadhefkkhnpogpkhncalieojnjjcf"><img src="./assets/proj-attendance.svg" width="49.2%" alt="Attendance Dashboard Chrome Extension" /></a>&nbsp;<a href="https://agroresiduescm.live/"><img src="./assets/proj-agro.svg" width="49.2%" alt="Agro Residue SCM Live Platform" /></a>
   <br/>
-  <table width="100%">
-    <thead>
-      <tr>
-        <th align="left">Repository</th>
-        <th align="left">Description</th>
-        <th align="left">Stack</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a href="https://github.com/DhruvilPatel603/Alexa_Assistant"><code>Alexa_Assistant</code></a></td>
-        <td>Python voice assistant with speech recognition, TTS, Wikipedia Q&amp;A, email &amp; music commands.</td>
-        <td><code>Python</code> · <code>SpeechRecognition</code></td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/DhruvilPatel603/Library-Mangement-System"><code>Library-Mangement-System</code></a></td>
-        <td>Book inventory, issuing, submission tracking &amp; late-fee portal.</td>
-        <td><code>PHP</code> · <code>MySQL</code> · <code>HTML/CSS</code></td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/DhruvilPatel603/SGP-1"><code>SGP-1</code></a></td>
-        <td>Early web engineering &amp; interactive mini-games college project.</td>
-        <td><code>PHP</code> · <code>HTML/CSS</code></td>
-      </tr>
-      <tr>
-        <td><a href="https://github.com/DhruvilPatel603/Elite-Intern"><code>Elite-Intern</code></a></td>
-        <td>Python internship engineering tasks &amp; problem-solving modules.</td>
-        <td><code>Python</code></td>
-      </tr>
-    </tbody>
-  </table>
-</details>
+  <a href="https://github.com/DhruvilPatel603"><img src="./assets/proj-streamix.svg" width="49.2%" alt="STREAMIX Android Music App" /></a>&nbsp;<a href="https://chromewebstore.google.com/detail/network-meter-%E2%80%94-speed-tes/pnlkbeccihfnohpkmjhekpgikdmaehad"><img src="./assets/proj-network-meter.svg" width="49.2%" alt="Network Meter Speed Test Chrome Extension" /></a>
+  <br/>
+  <a href="https://github.com/DhruvilPatel603/Chatbot"><img src="./assets/proj-chatbot.svg" width="49.2%" alt="RAG AI Chatbot" /></a>&nbsp;<a href="https://github.com/DhruvilPatel603/SpeakEasy"><img src="./assets/proj-speakeasy.svg" width="49.2%" alt="SpeakEasy AI Assistant" /></a>
+</div>
 
 <br/>
 
@@ -225,33 +151,40 @@
 <br/>
 
 <!-- ======================================================================= -->
-<!-- 04 // SYSTEM TELEMETRY: GITHUB STATS, STREAK, LANGUAGES & PACMAN        -->
+<!-- 04 // OPEN SOURCE IMPACT: UPSTREAM PR MATRIX & REPO BREAKDOWN           -->
 <!-- ======================================================================= -->
 
-<img src="./assets/header-telemetry.svg" width="100%" alt="04 // System Telemetry" />
+<img src="./assets/header-oss.svg" width="100%" alt="04 // Open Source Impact" />
 
 <br/>
 
 <div align="center">
+  <a href="https://github.com/pulls?q=is%3Apr+author%3ADhruvilPatel603">
+    <img src="./assets/pr-overview.svg" width="100%" alt="Upstream Pull Request Telemetry" />
+  </a>
+  <br/>
+  <a href="https://github.com/anmolkapil/plexo/pulls?q=is%3Apr+author%3ADhruvilPatel603"><img src="./assets/pr-plexo.svg" width="32.6%" alt="anmolkapil/plexo PRs" /></a>&nbsp;<a href="https://github.com/The-PR-Agent/pr-agent/pulls?q=is%3Apr+author%3ADhruvilPatel603"><img src="./assets/pr-pragent.svg" width="32.6%" alt="The-PR-Agent/pr-agent PRs" /></a>&nbsp;<a href="https://github.com/21CE085/GitHub-Session/pulls?q=is%3Apr+author%3ADhruvilPatel603"><img src="./assets/pr-session.svg" width="32.6%" alt="21CE085/GitHub-Session PRs" /></a>
+</div>
 
-<table width="100%">
-  <tr>
-    <td width="49%" align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api?username=DhruvilPatel603&show_icons=true&hide_border=false&bg_color=090d16&title_color=00f0ff&icon_color=8b5cf6&text_color=e2e8f0&border_color=1e293b&border_radius=12" width="100%" alt="Dhruvil Patel GitHub Stats" />
-    </td>
-    <td width="51%" align="center" valign="middle">
-      <img src="https://streak-stats.demolab.com?user=DhruvilPatel603&background=090d16&border=1e293b&stroke=1e293b&ring=00f0ff&fire=f43f8e&currStreakNum=00f0ff&sideNums=e2e8f0&currStreakLabel=8b5cf6&sideLabels=94a3b8&dates=64748b&border_radius=12" width="100%" alt="Dhruvil Patel GitHub Streak" />
-    </td>
-  </tr>
-  <tr>
-    <td width="46%" align="center" valign="middle">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvilPatel603&layout=compact&hide=jupyter%20notebook&langs_count=5&bg_color=090d16&title_color=00f0ff&text_color=e2e8f0&border_color=1e293b&border_radius=12" width="100%" alt="Top Languages" />
-    </td>
-    <td width="54%" align="center" valign="middle">
-      <img src="./assets/coder-dna.svg" width="100%" alt="Coder DNA and Lore Easter Egg" />
-    </td>
-  </tr>
-</table>
+<br/>
+
+<img src="./assets/divider-pulse.svg" width="100%" alt="" />
+
+<br/>
+
+<!-- ======================================================================= -->
+<!-- 05 // SYSTEM TELEMETRY: GITHUB STATS, STREAK, LANGUAGES & PACMAN        -->
+<!-- ======================================================================= -->
+
+<img src="./assets/header-telemetry.svg" width="100%" alt="05 // System Telemetry" />
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DhruvilPatel603&show_icons=true&hide_border=false&bg_color=090d16&title_color=00f0ff&icon_color=8b5cf6&text_color=e2e8f0&border_color=1e293b&border_radius=12" width="48.5%" alt="Dhruvil Patel GitHub Stats" />&nbsp;<img src="https://streak-stats.demolab.com?user=DhruvilPatel603&background=090d16&border=1e293b&stroke=1e293b&ring=00f0ff&fire=f43f8e&currStreakNum=00f0ff&sideNums=e2e8f0&currStreakLabel=8b5cf6&sideLabels=94a3b8&dates=64748b&border_radius=12" width="50.3%" alt="Dhruvil Patel GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvilPatel603&layout=compact&hide=jupyter%20notebook&langs_count=5&bg_color=090d16&title_color=00f0ff&text_color=e2e8f0&border_color=1e293b&border_radius=12" width="45.5%" alt="Top Languages" />&nbsp;<img src="./assets/coder-dna.svg" width="53.3%" alt="Coder DNA and Lore Easter Egg" />
+</div>
 
 <br/>
 
@@ -264,8 +197,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph.svg" />
   <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/DhruvilPatel603/DhruvilPatel603/output/pacman-contribution-graph.svg" width="100%" />
 </picture>
-
-</div>
 
 <br/>
 
