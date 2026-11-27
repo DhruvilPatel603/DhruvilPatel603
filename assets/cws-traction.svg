@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 74" width="100%" role="img" aria-label="Chrome Web Store Traction Summary">
+  <defs>
+    <linearGradient id="cwsBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+    .cws-dot { animation: cwsPulse 2s ease-in-out infinite; }
+    @keyframes cwsPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+  </style>
+  <rect x="2" y="2" width="1196" height="70" rx="12" fill="url(#cwsBg)" stroke="#1e293b" stroke-width="1.4"/>
+  <rect x="2" y="2" width="5" height="70" rx="2.5" fill="#00f0ff"/>
+
+  <circle class="cws-dot" cx="30" cy="37" r="4.5" fill="#10b981"/>
+  <text class="mono" x="45" y="41" font-size="12.5" fill="#e2e8f0" letter-spacing="1.1">CHROME_WEB_STORE_TRACTION // <tspan fill="#00f0ff">2 LIVE EXTENSIONS</tspan></text>
+
+  <g transform="translate(540, 21)">
+    <rect x="0" y="0" width="184" height="32" rx="8" fill="#050811" stroke="#00f0ff" stroke-opacity="0.55"/>
+    <text class="mono" x="92" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#00f0ff">484+ ACTIVE USERS</text>
+
+    <rect x="196" y="0" width="218" height="32" rx="8" fill="#050811" stroke="#fbbf24" stroke-opacity="0.55"/>
+    <text class="mono" x="305" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#fbbf24">★ 5.0 / 5.0 (12 RATINGS)</text>
+
+    <rect x="426" y="0" width="210" height="32" rx="8" fill="#050811" stroke="#10b981" stroke-opacity="0.55"/>
+    <text class="mono" x="531" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#10b981">186 + 298 INSTALLS</text>
+  </g>
+</svg>

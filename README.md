@@ -92,6 +92,8 @@
   <a href="https://github.com/DhruvilPatel603"><img src="./assets/proj-streamix.svg" width="49.2%" alt="STREAMIX Android Music App" /></a>&nbsp;<a href="https://chromewebstore.google.com/detail/network-meter-%E2%80%94-speed-tes/pnlkbeccihfnohpkmjhekpgikdmaehad"><img src="./assets/proj-network-meter.svg" width="49.2%" alt="Network Meter Speed Test Chrome Extension" /></a>
   <br/>
   <a href="https://github.com/DhruvilPatel603/Chatbot"><img src="./assets/proj-chatbot.svg" width="49.2%" alt="RAG AI Chatbot" /></a>&nbsp;<a href="https://github.com/DhruvilPatel603/SpeakEasy"><img src="./assets/proj-speakeasy.svg" width="49.2%" alt="SpeakEasy AI Assistant" /></a>
+  <br/>
+  <img src="./assets/cws-traction.svg" width="100%" alt="Chrome Web Store Traction Summary" />
 </div>
 
 <br/>

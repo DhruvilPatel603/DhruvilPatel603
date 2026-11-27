@@ -10,12 +10,9 @@
     .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
   </style>
   <rect x="2" y="2" width="556" height="211" rx="14" fill="url(#cg)" stroke="#1e293b" stroke-width="1.5"/>
-  <!-- Accent top bar -->
   <rect x="24" y="2" width="140" height="3.5" rx="1.5" fill="#3b82f6"/>
-  <!-- Corner tick -->
   <path d="M540 20 L540 12 L532 12" fill="none" stroke="#3b82f6" stroke-width="1.8"/>
 
-  <!-- Top metadata -->
   <rect x="24" y="22" width="38" height="38" rx="9" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.5"/>
   <text class="mono" x="43" y="47" text-anchor="middle" font-size="18" fill="#3b82f6">◈</text>
 
@@ -25,15 +22,12 @@
   <rect x="404" y="24" width="132" height="24" rx="12" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.55"/>
   <text class="mono" x="470" y="40" text-anchor="middle" font-size="10.5" fill="#3b82f6">LIVE EXTENSION</text>
 
-  <!-- Description -->
   <text class="sans" x="24" y="92" font-size="13.5" fill="#cbd5e1">Speed test &amp; real-time browser traffic monitor</text>
   <text class="sans" x="24" y="114" font-size="13.5" fill="#94a3b8">measuring download, upload, ping &amp; jitter.</text>
 
-  <!-- Tech Pills -->
   <rect x="24" y="138" width="98" height="24" rx="6" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.45"/><text class="mono" x="73.0" y="154" text-anchor="middle" font-size="11" fill="#cbd5e1">JavaScript</text><rect x="130" y="138" width="98" height="24" rx="6" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.45"/><text class="mono" x="179.0" y="154" text-anchor="middle" font-size="11" fill="#cbd5e1">Chrome Ext</text><rect x="236" y="138" width="151" height="24" rx="6" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.45"/><text class="mono" x="311.6" y="154" text-anchor="middle" font-size="11" fill="#cbd5e1">Network Telemetry</text>
 
-  <!-- Bottom CTA strip -->
   <line x1="24" y1="176" x2="536" y2="176" stroke="#1e293b" stroke-width="1"/>
-  <text class="mono" x="24" y="196" font-size="11" fill="#64748b">ARTIFACT_LINK // VERIFIED</text>
-  <text class="mono" x="536" y="196" text-anchor="end" font-size="11.5" font-weight="700" fill="#3b82f6">VIEW ON CHROME STORE ▸</text>
+  <text class="mono" x="24" y="196" font-size="11.5" font-weight="700" fill="#fbbf24">★ 5.0 (4)  ·  298 USERS  ·  v1.0.1</text>
+  <text class="mono" x="536" y="196" text-anchor="end" font-size="11.5" font-weight="700" fill="#3b82f6">CHROME STORE ▸</text>
 </svg>

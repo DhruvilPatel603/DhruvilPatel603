@@ -7,6 +7,7 @@ import datetime as dt
 import html
 import json
 import os
+import re
 import urllib.error
 import urllib.request
 from collections import Counter
@@ -471,11 +472,175 @@ def build_live_feed_svg(prs: list[dict], commits: list[dict]) -> str:
 '''
 
 
+def fetch_cws_stats(url: str, fallback: dict) -> dict:
+    """Scrape public user count, star rating, rating count, and version from Chrome Web Store."""
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+                "Accept-Language": "en-US,en;q=0.9",
+            },
+        )
+        raw_html = urllib.request.urlopen(req, timeout=12).read().decode("utf-8", "ignore")
+        clean_txt = " ".join(re.sub(r"<[^>]+>", " ", raw_html).split())
+
+        users_m = re.search(r"([\d,]+)\s+users", clean_txt)
+        rating_m = re.search(r'aria-label="([\d.]+)\s+out of 5 stars"', raw_html)
+        reviews_m = re.search(r"(\d+)\s+ratings?", clean_txt)
+        version_m = re.search(r"Version\s+([\d.]+)", clean_txt)
+
+        users_int = int(users_m.group(1).replace(",", "")) if users_m else fallback["users"]
+        rating_val = f"{float(rating_m.group(1)):.1f}" if rating_m else fallback["rating"]
+        reviews_int = int(reviews_m.group(1)) if reviews_m else fallback["reviews"]
+        version_str = version_m.group(1) if version_m else fallback["version"]
+
+        return {
+            "users": users_int,
+            "rating": rating_val,
+            "reviews": reviews_int,
+            "version": version_str,
+        }
+    except Exception:
+        return fallback
+
+
+def update_cws_cards() -> None:
+    att = fetch_cws_stats(
+        "https://chromewebstore.google.com/detail/attendance-dashboard-for/onpaadhefkkhnpogpkhncalieojnjjcf",
+        {"users": 186, "rating": "5.0", "reviews": 8, "version": "3.2.2"},
+    )
+    net = fetch_cws_stats(
+        "https://chromewebstore.google.com/detail/network-meter-%E2%80%94-speed-tes/pnlkbeccihfnohpkmjhekpgikdmaehad",
+        {"users": 298, "rating": "5.0", "reviews": 4, "version": "1.0.1"},
+    )
+
+    def render_ext_card(
+        filename: str,
+        title: str,
+        line1: str,
+        line2: str,
+        tags: list[str],
+        accent: str,
+        glyph: str,
+        stats: dict,
+    ) -> None:
+        pills = []
+        px = 24
+        for t in tags:
+            w = max(62, len(t) * 7.6 + 22)
+            pills.append(
+                f'<rect x="{px}" y="138" width="{w:.0f}" height="24" rx="6" fill="#0f172a" stroke="{accent}" stroke-opacity="0.45"/>'
+                f'<text class="mono" x="{px + w/2:.1f}" y="154" text-anchor="middle" font-size="11" fill="#cbd5e1">{esc(t)}</text>'
+            )
+            px += int(w) + 8
+
+        traction = f"★ {stats['rating']} ({stats['reviews']})  ·  {stats['users']:,} USERS  ·  v{stats['version']}"
+
+        svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 215" width="100%" role="img" aria-label="{esc(title)}">
+  <defs>
+    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0d1426"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }}
+    .sans {{ font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }}
+  </style>
+  <rect x="2" y="2" width="556" height="211" rx="14" fill="url(#cg)" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="24" y="2" width="140" height="3.5" rx="1.5" fill="{accent}"/>
+  <path d="M540 20 L540 12 L532 12" fill="none" stroke="{accent}" stroke-width="1.8"/>
+
+  <rect x="24" y="22" width="38" height="38" rx="9" fill="#0f172a" stroke="{accent}" stroke-opacity="0.5"/>
+  <text class="mono" x="43" y="47" text-anchor="middle" font-size="18" fill="{accent}">{esc(glyph)}</text>
+
+  <text class="mono" x="74" y="36" font-size="11" fill="#64748b" letter-spacing="1.2">EXT // CHROME_WEB_STORE</text>
+  <text class="sans" x="74" y="57" font-size="19" font-weight="800" fill="#f8fafc">{esc(title)}</text>
+
+  <rect x="404" y="24" width="132" height="24" rx="12" fill="#0f172a" stroke="{accent}" stroke-opacity="0.55"/>
+  <text class="mono" x="470" y="40" text-anchor="middle" font-size="10.5" fill="{accent}">LIVE EXTENSION</text>
+
+  <text class="sans" x="24" y="92" font-size="13.5" fill="#cbd5e1">{esc(line1)}</text>
+  <text class="sans" x="24" y="114" font-size="13.5" fill="#94a3b8">{esc(line2)}</text>
+
+  {''.join(pills)}
+
+  <line x1="24" y1="176" x2="536" y2="176" stroke="#1e293b" stroke-width="1"/>
+  <text class="mono" x="24" y="196" font-size="11.5" font-weight="700" fill="#fbbf24">{esc(traction)}</text>
+  <text class="mono" x="536" y="196" text-anchor="end" font-size="11.5" font-weight="700" fill="{accent}">CHROME STORE ▸</text>
+</svg>
+'''
+        (ASSETS / filename).write_text(svg, encoding="utf-8")
+
+    render_ext_card(
+        "proj-attendance.svg",
+        "Attendance Dashboard",
+        "Custom Chrome extension engineered with a sleek",
+        "glassmorphism UI to track & manage productivity.",
+        ["JavaScript", "Chrome Ext", "Glassmorphism"],
+        "#00f0ff",
+        "◷",
+        att,
+    )
+    render_ext_card(
+        "proj-network-meter.svg",
+        "Network Meter",
+        "Speed test & real-time browser traffic monitor",
+        "measuring download, upload, ping & jitter.",
+        ["JavaScript", "Chrome Ext", "Network Telemetry"],
+        "#3b82f6",
+        "◈",
+        net,
+    )
+
+    total_users = att["users"] + net["users"]
+    total_reviews = att["reviews"] + net["reviews"]
+    avg_rating = (float(att["rating"]) * att["reviews"] + float(net["rating"]) * net["reviews"]) / max(1, total_reviews)
+
+    cws_banner = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 74" width="100%" role="img" aria-label="Chrome Web Store Traction Summary">
+  <defs>
+    <linearGradient id="cwsBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono {{ font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }}
+    .cws-dot {{ animation: cwsPulse 2s ease-in-out infinite; }}
+    @keyframes cwsPulse {{ 0%,100% {{ opacity: 1; }} 50% {{ opacity: 0.35; }} }}
+  </style>
+  <rect x="2" y="2" width="1196" height="70" rx="12" fill="url(#cwsBg)" stroke="#1e293b" stroke-width="1.4"/>
+  <rect x="2" y="2" width="5" height="70" rx="2.5" fill="#00f0ff"/>
+
+  <circle class="cws-dot" cx="30" cy="37" r="4.5" fill="#10b981"/>
+  <text class="mono" x="45" y="41" font-size="12.5" fill="#e2e8f0" letter-spacing="1.1">CHROME_WEB_STORE_TRACTION // <tspan fill="#00f0ff">2 LIVE EXTENSIONS</tspan></text>
+
+  <g transform="translate(540, 21)">
+    <rect x="0" y="0" width="184" height="32" rx="8" fill="#050811" stroke="#00f0ff" stroke-opacity="0.55"/>
+    <text class="mono" x="92" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#00f0ff">{total_users:,}+ ACTIVE USERS</text>
+
+    <rect x="196" y="0" width="218" height="32" rx="8" fill="#050811" stroke="#fbbf24" stroke-opacity="0.55"/>
+    <text class="mono" x="305" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#fbbf24">★ {avg_rating:.1f} / 5.0 ({total_reviews} RATINGS)</text>
+
+    <rect x="426" y="0" width="210" height="32" rx="8" fill="#050811" stroke="#10b981" stroke-opacity="0.55"/>
+    <text class="mono" x="531" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="#10b981">186 + 298 INSTALLS</text>
+  </g>
+</svg>
+'''
+    # Replace hardcoded 186 + 298 string with dynamic values!
+    cws_banner = cws_banner.replace("186 + 298 INSTALLS", f"{att['users']:,} + {net['users']:,} INSTALLS")
+    (ASSETS / "cws-traction.svg").write_text(cws_banner, encoding="utf-8")
+    print(f"Updated CWS stats: Attendance={att['users']} users ({att['rating']}★), NetworkMeter={net['users']} users ({net['rating']}★)")
+
+
 def main() -> None:
     prs = fetch_prs()
     commits = fetch_recent_commits(limit=5)
     update_pr_cards(prs)
     (ASSETS / "live-feed.svg").write_text(build_live_feed_svg(prs, commits), encoding="utf-8")
+    update_cws_cards()
     print(f"Updated PR cards ({len(prs)} PRs) and live-feed.svg ({len(commits)} commits/events).")
 
 
