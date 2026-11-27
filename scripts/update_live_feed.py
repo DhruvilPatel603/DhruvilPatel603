@@ -635,6 +635,94 @@ def update_cws_cards() -> None:
     print(f"Updated CWS stats: Attendance={att['users']} users ({att['rating']}★), NetworkMeter={net['users']} users ({net['rating']}★)")
 
 
+def _cyber_ghost_symbols() -> str:
+    """Generate crisp 10x10 pixel-art SVG <symbol> sprites (20x20 viewBox) for all ghosts."""
+    # 10x10 ghost silhouette:
+    # . = transparent, B = main body, H = top highlight, D = dark shade
+    body = [
+        "...BBBB...",
+        "..BHHHHB..",
+        ".BHHHHHHB.",
+        ".BBBBBBBB.",
+        "BBBBBBBBBB",
+        "BBBBBBBBBB",
+        "BBBBBBBBBB",
+        "BBBBBBBBBB",
+        "BB.BBBB.BB",
+        "B...BB...B",
+    ]
+
+    # Eye pixel offsets (2x2 eye boxes inside 10x10 grid) by direction
+    eye_offsets = {
+        "up": (0, -1),
+        "down": (0, 1),
+        "left": (-1, 0),
+        "right": (1, 0),
+    }
+
+    ghosts = [
+        ("blinky", "#f43f8e", "#fda4af", "#be123c", "#00f0ff"),  # Neon Magenta
+        ("inky", "#00f0ff", "#cffafe", "#0891b2", "#8b5cf6"),    # Electric Cyan
+        ("pinky", "#8b5cf6", "#ede9fe", "#5b21b6", "#f43f8e"),   # Ultraviolet Purple
+        ("clyde", "#3b82f6", "#dbeafe", "#1d4ed8", "#00f0ff"),   # Cyber Blue
+    ]
+
+    symbols = []
+    for name, col, hi, shade, pupil in ghosts:
+        for direction, (dx, dy) in eye_offsets.items():
+            rects = []
+            for r, row in enumerate(body):
+                for c, ch in enumerate(row):
+                    if ch == ".":
+                        continue
+                    fill = hi if ch == "H" else (shade if (r >= 7) else col)
+                    rects.append(f'<rect x="{c*2}" y="{r*2}" width="2.1" height="2.1" fill="{fill}"/>')
+            # Cyber visor / pixel eyes
+            ex1, ey1 = 2 + dx, 3 + dy
+            ex2, ey2 = 6 + dx, 3 + dy
+            rects.append(f'<rect x="{ex1*2}" y="{ey1*2}" width="4" height="4" rx="0.6" fill="#090d16"/>')
+            rects.append(f'<rect x="{ex2*2}" y="{ey2*2}" width="4" height="4" rx="0.6" fill="#090d16"/>')
+            rects.append(f'<rect x="{(ex1*2)+1 + dx}" y="{(ey1*2)+1 + dy}" width="2" height="2" fill="{pupil}"/>')
+            rects.append(f'<rect x="{(ex2*2)+1 + dx}" y="{(ey2*2)+1 + dy}" width="2" height="2" fill="{pupil}"/>')
+
+            symbols.append(
+                f'<symbol id="ghost-{name}-{direction}" viewBox="0 0 20 20">{"".join(rects)}</symbol>'
+            )
+
+    # Scared glitch wireframe ghost
+    scared_rects = []
+    for r, row in enumerate(body):
+        for c, ch in enumerate(row):
+            if ch != ".":
+                scared_rects.append(f'<rect x="{c*2}" y="{r*2}" width="2.1" height="2.1" fill="#1e293b"/>')
+    # Glowing cyan pixel eyes & jagged mouth
+    scared_rects.extend([
+        '<rect x="5" y="6" width="3" height="3" fill="#00f0ff"/>',
+        '<rect x="12" y="6" width="3" height="3" fill="#00f0ff"/>',
+        '<rect x="4" y="13" width="2" height="2" fill="#f43f8e"/>',
+        '<rect x="6" y="12" width="2" height="2" fill="#f43f8e"/>',
+        '<rect x="8" y="13" width="2" height="2" fill="#f43f8e"/>',
+        '<rect x="10" y="12" width="2" height="2" fill="#f43f8e"/>',
+        '<rect x="12" y="13" width="2" height="2" fill="#f43f8e"/>',
+        '<rect x="14" y="12" width="2" height="2" fill="#f43f8e"/>',
+    ])
+    symbols.append(f'<symbol id="ghost-scared" viewBox="0 0 20 20">{"".join(scared_rects)}</symbol>')
+
+    # Ghost eyes (returning to base)
+    for direction, (dx, dy) in eye_offsets.items():
+        ex1, ey1 = 2 + dx, 3 + dy
+        ex2, ey2 = 6 + dx, 3 + dy
+        erects = [
+            f'<rect x="{ex1*2}" y="{ey1*2}" width="4" height="4" rx="1" fill="#e2e8f0"/>',
+            f'<rect x="{ex2*2}" y="{ey2*2}" width="4" height="4" rx="1" fill="#e2e8f0"/>',
+            f'<rect x="{(ex1*2)+1 + dx}" y="{(ey1*2)+1 + dy}" width="2" height="2" fill="#00f0ff"/>',
+            f'<rect x="{(ex2*2)+1 + dx}" y="{(ey2*2)+1 + dy}" width="2" height="2" fill="#00f0ff"/>',
+        ]
+        symbols.append(f'<symbol id="ghost-eyes-{direction}" viewBox="0 0 20 20">{"".join(erects)}</symbol>')
+
+    return "\n    ".join(symbols)
+
+
 def update_pacman_cyber() -> None:
     """Fetch pacman-contribution-graph-dark.svg from output branch and reskin into a cyber arcade card."""
     url = f"https://raw.githubusercontent.com/{USER}/{USER}/output/pacman-contribution-graph-dark.svg"
@@ -660,6 +748,20 @@ def update_pacman_cyber() -> None:
 
     # Remove solid background rect from pacman SVG so it blends into our #090d16 card
     inner = inner.replace('<rect width="100%" height="100%" fill="#0d1117"/>', "")
+
+    # Replace all default raster PNG ghost symbols with crisp vector pixel-art cyber ghosts
+    inner = re.sub(r"<symbol\b[^>]*>.*?</symbol>", "", inner, flags=re.S)
+    inner = inner.replace("<defs>", f"<defs>\n    {_cyber_ghost_symbols()}\n", 1)
+
+    # Reskin Pac-Man itself into glowing cyber-gold with cyan rim accent
+    inner = re.sub(
+        r'(<path\s+id="pacman"[^>]*?fill=")yellow(")',
+        r'\1#fde047" stroke="#00f0ff" stroke-width="0.9"',
+        inner,
+        count=1,
+    )
+    inner = inner.replace("yellow;", "#fde047;").replace(";yellow", ";#fde047")
+    inner = inner.replace("red;", "#f43f8e;").replace(";red", ";#f43f8e")
 
     # Reskin maze, grid, and contribution palette to Cyber-Obsidian + Neon
     color_map = {
