@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 392" width="100%" role="img" aria-label="Live GitHub Activity and Recent PRs Feed">
+  <defs>
+    <linearGradient id="feedHdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .live-dot { animation: livePulse 1.8s ease-in-out infinite; }
+    @keyframes livePulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+  </style>
+
+  <rect x="2" y="2" width="1196" height="388" rx="14" fill="#090d16" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="2" y="2" width="1196" height="3" rx="1.5" fill="url(#feedHdr)" opacity="0.85"/>
+
+  <!-- Top Bar -->
+  <circle class="live-dot" cx="28" cy="28" r="4.5" fill="#10b981"/>
+  <text class="mono" x="42" y="32" font-size="12" fill="#e2e8f0" letter-spacing="1.2">LIVE_ACTIVITY_STREAM // <tspan fill="#00f0ff">AUTO_SYNC_12H</tspan></text>
+  <text class="mono" x="1174" y="32" text-anchor="end" font-size="11" fill="#64748b">LATEST_EVENT: <tspan fill="#94a3b8">Nov 27</tspan></text>
+
+  <!-- Column Headers -->
+  <text class="mono" x="26" y="64" font-size="11.5" font-weight="700" fill="#00f0ff" letter-spacing="1">▸ LATEST_PULL_REQUESTS</text>
+  <line x1="600" y1="52" x2="600" y2="346" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text class="mono" x="622" y="64" font-size="11.5" font-weight="700" fill="#8b5cf6" letter-spacing="1">▸ RECENT_COMMITS_&amp;_PUSHES</text>
+
+  <!-- Left Column: Recent PRs -->
+    <rect x="24" y="78" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="34" y="90" width="64" height="22" rx="6" fill="#050811" stroke="#00f0ff" stroke-opacity="0.65"/>
+  <text class="mono" x="66" y="105" text-anchor="middle" font-size="10" font-weight="700" fill="#00f0ff">OPEN</text>
+  <text class="mono" x="110" y="97" font-size="11.5" font-weight="700" fill="#e2e8f0">anmolkapil/plexo #299</text>
+  <text class="sans" x="110" y="115" font-size="11.5" fill="#94a3b8">feat(i18n): add i18next foundation, language setting, and…</text>
+  <text class="mono" x="566" y="97" text-anchor="end" font-size="10.5" fill="#64748b">Nov 27</text>
+  <rect x="24" y="132" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="34" y="144" width="64" height="22" rx="6" fill="#050811" stroke="#00f0ff" stroke-opacity="0.65"/>
+  <text class="mono" x="66" y="159" text-anchor="middle" font-size="10" font-weight="700" fill="#00f0ff">OPEN</text>
+  <text class="mono" x="110" y="151" font-size="11.5" font-weight="700" fill="#e2e8f0">anmolkapil/plexo #261</text>
+  <text class="sans" x="110" y="169" font-size="11.5" fill="#94a3b8">feat(startup): option to start Plexo minimized in system…</text>
+  <text class="mono" x="566" y="151" text-anchor="end" font-size="10.5" fill="#64748b">Nov 27</text>
+  <rect x="24" y="186" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="34" y="198" width="64" height="22" rx="6" fill="#050811" stroke="#00f0ff" stroke-opacity="0.65"/>
+  <text class="mono" x="66" y="213" text-anchor="middle" font-size="10" font-weight="700" fill="#00f0ff">OPEN</text>
+  <text class="mono" x="110" y="205" font-size="11.5" font-weight="700" fill="#e2e8f0">anmolkapil/plexo #298</text>
+  <text class="sans" x="110" y="223" font-size="11.5" fill="#94a3b8">fix(ui): render custom Windows title bar controls to avoi…</text>
+  <text class="mono" x="566" y="205" text-anchor="end" font-size="10.5" fill="#64748b">Nov 27</text>
+  <rect x="24" y="240" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="34" y="252" width="64" height="22" rx="6" fill="#050811" stroke="#10b981" stroke-opacity="0.65"/>
+  <text class="mono" x="66" y="267" text-anchor="middle" font-size="10" font-weight="700" fill="#10b981">MERGED</text>
+  <text class="mono" x="110" y="259" font-size="11.5" font-weight="700" fill="#e2e8f0">anmolkapil/plexo #233</text>
+  <text class="sans" x="110" y="277" font-size="11.5" fill="#94a3b8">feat(settings): pinned default download folder and save p…</text>
+  <text class="mono" x="566" y="259" text-anchor="end" font-size="10.5" fill="#64748b">Nov 14</text>
+  <rect x="24" y="294" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="34" y="306" width="64" height="22" rx="6" fill="#050811" stroke="#10b981" stroke-opacity="0.65"/>
+  <text class="mono" x="66" y="321" text-anchor="middle" font-size="10" font-weight="700" fill="#10b981">MERGED</text>
+  <text class="mono" x="110" y="313" font-size="11.5" font-weight="700" fill="#e2e8f0">The-PR-Agent/pr-agent #4702</text>
+  <text class="sans" x="110" y="331" font-size="11.5" fill="#94a3b8">feat(reviewer): add deterministic risk checks for sensiti…</text>
+  <text class="mono" x="566" y="313" text-anchor="end" font-size="10.5" fill="#64748b">Nov 08</text>
+
+  <!-- Right Column: Recent Commits -->
+    <rect x="620" y="78" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="630" y="90" width="56" height="22" rx="6" fill="#050811" stroke="#3b82f6" stroke-opacity="0.65"/>
+  <text class="mono" x="658" y="105" text-anchor="middle" font-size="10" font-weight="700" fill="#3b82f6">PUSH</text>
+  <text class="mono" x="698" y="97" font-size="11.5" font-weight="700" fill="#e2e8f0">DhruvilPatel603/plexo · main</text>
+  <text class="sans" x="698" y="115" font-size="11.5" fill="#94a3b8">style: format quoted torrent path assertion</text>
+  <text class="mono" x="1162" y="97" text-anchor="end" font-size="10.5" fill="#64748b">Nov 27</text>
+  <rect x="620" y="132" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="630" y="144" width="56" height="22" rx="6" fill="#050811" stroke="#3b82f6" stroke-opacity="0.65"/>
+  <text class="mono" x="658" y="159" text-anchor="middle" font-size="10" font-weight="700" fill="#3b82f6">PUSH</text>
+  <text class="mono" x="698" y="151" font-size="11.5" font-weight="700" fill="#e2e8f0">DhruvilPatel603/pr-agent · feature/provider…</text>
+  <text class="sans" x="698" y="169" font-size="11.5" fill="#94a3b8">fix(providers): include filtered file names in head stale…</text>
+  <text class="mono" x="1162" y="151" text-anchor="end" font-size="10.5" fill="#64748b">Nov 08</text>
+  <rect x="620" y="186" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="630" y="198" width="56" height="22" rx="6" fill="#050811" stroke="#3b82f6" stroke-opacity="0.65"/>
+  <text class="mono" x="658" y="213" text-anchor="middle" font-size="10" font-weight="700" fill="#3b82f6">PUSH</text>
+  <text class="mono" x="698" y="205" font-size="11.5" font-weight="700" fill="#e2e8f0">DhruvilPatel603/pr-agent · feature/determin…</text>
+  <text class="sans" x="698" y="223" font-size="11.5" fill="#94a3b8">fix(reviewer): escape HTML in GFM table row for risk chec…</text>
+  <text class="mono" x="1162" y="205" text-anchor="end" font-size="10.5" fill="#64748b">Nov 08</text>
+  <rect x="620" y="240" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="630" y="252" width="56" height="22" rx="6" fill="#050811" stroke="#3b82f6" stroke-opacity="0.65"/>
+  <text class="mono" x="658" y="267" text-anchor="middle" font-size="10" font-weight="700" fill="#3b82f6">PUSH</text>
+  <text class="mono" x="698" y="259" font-size="11.5" font-weight="700" fill="#e2e8f0">DhruvilPatel603/pr-agent · main</text>
+  <text class="sans" x="698" y="277" font-size="11.5" fill="#94a3b8">fix(review): use the prepared diff when packing yields on…</text>
+  <text class="mono" x="1162" y="259" text-anchor="end" font-size="10.5" fill="#64748b">Nov 08</text>
+  <rect x="620" y="294" width="556" height="46" rx="9" fill="#0d1424" stroke="#1e293b"/>
+  <rect x="630" y="306" width="56" height="22" rx="6" fill="#050811" stroke="#3b82f6" stroke-opacity="0.65"/>
+  <text class="mono" x="658" y="321" text-anchor="middle" font-size="10" font-weight="700" fill="#3b82f6">PUSH</text>
+  <text class="mono" x="698" y="313" font-size="11.5" font-weight="700" fill="#e2e8f0">DhruvilPatel603/pr-agent · feature/provider…</text>
+  <text class="sans" x="698" y="331" font-size="11.5" fill="#94a3b8">fix(providers): address review feedback on run ID matchin…</text>
+  <text class="mono" x="1162" y="313" text-anchor="end" font-size="10.5" fill="#64748b">Nov 07</text>
+
+  <!-- Footer Status Bar -->
+  <line x1="24" y1="358" x2="1176" y2="358" stroke="#1e293b" stroke-width="1"/>
+  <text class="mono" x="26" y="376" font-size="10.5" fill="#64748b">FEED // api.github.com/users/DhruvilPatel603 · updated via GitHub Actions</text>
+  <text class="mono" x="1174" y="376" text-anchor="end" font-size="10.5" fill="#10b981">[ TELEMETRY_ACTIVE ]</text>
+</svg>

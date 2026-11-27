@@ -16,10 +16,8 @@
   <rect x="4" y="6" width="6" height="46" rx="3" fill="#10b981"/>
   <rect x="24" y="17" width="40" height="24" rx="6" fill="#0f172a" stroke="#10b981" stroke-opacity="0.6"/>
   <text class="mono" x="44" y="33" text-anchor="middle" font-size="12.5" font-weight="700" fill="#10b981">04</text>
-
   <text class="sans" x="80" y="35" font-size="19" font-weight="800" fill="#f8fafc" letter-spacing="1.6">OPEN_SOURCE_IMPACT</text>
   <line x1="390" y1="29" x2="960" y2="29" stroke="url(#hdrLine)" stroke-width="1.2"/>
-
   <circle class="ping" cx="980" cy="29" r="3.5" fill="#10b981"/>
   <text class="mono" x="994" y="33" font-size="12" fill="#94a3b8" letter-spacing="1">PULL_REQUESTS // 14</text>
 </svg>

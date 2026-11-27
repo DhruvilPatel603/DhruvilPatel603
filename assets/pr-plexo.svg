@@ -15,13 +15,12 @@
   <text class="sans" x="24" y="86" font-size="12.5" fill="#cbd5e1">i18n, custom Windows titlebar, system tray,</text>
   <text class="sans" x="24" y="106" font-size="12.5" fill="#94a3b8">live search/filter, trackers &amp; disk warnings.</text>
 
-  <!-- Stacked Merged/Open/Closed Bar -->
   <rect x="24" y="128" width="342" height="7" rx="3.5" fill="#050811"/>
   <rect x="24" y="128" width="215" height="7" rx="3.5" fill="#10b981"/><rect x="241" y="128" width="91" height="7" rx="3.5" fill="#00f0ff"/><rect x="334" y="128" width="32" height="7" rx="3.5" fill="#64748b"/>
 
   <text class="mono" x="24" y="154" font-size="10.5" fill="#94a3b8">7 MERGED · 3 OPEN · 1 CLOSED</text>
 
   <line x1="24" y1="166" x2="366" y2="166" stroke="#1e293b" stroke-width="1"/>
-  <text class="mono" x="24" y="184" font-size="10.5" fill="#64748b">PR_LOG // VERIFIED</text>
+  <text class="mono" x="24" y="184" font-size="10.5" fill="#64748b">PR_LOG // LIVE_SYNC</text>
   <text class="mono" x="366" y="184" text-anchor="end" font-size="10.5" font-weight="700" fill="#00f0ff">INSPECT PRs ▸</text>
 </svg>

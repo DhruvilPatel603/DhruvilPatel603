@@ -164,6 +164,10 @@
   </a>
   <br/>
   <a href="https://github.com/anmolkapil/plexo/pulls?q=is%3Apr+author%3ADhruvilPatel603"><img src="./assets/pr-plexo.svg" width="32.6%" alt="anmolkapil/plexo PRs" /></a>&nbsp;<a href="https://github.com/The-PR-Agent/pr-agent/pulls?q=is%3Apr+author%3ADhruvilPatel603"><img src="./assets/pr-pragent.svg" width="32.6%" alt="The-PR-Agent/pr-agent PRs" /></a>&nbsp;<a href="https://github.com/21CE085/GitHub-Session/pulls?q=is%3Apr+author%3ADhruvilPatel603"><img src="./assets/pr-session.svg" width="32.6%" alt="21CE085/GitHub-Session PRs" /></a>
+  <br/>
+  <a href="https://github.com/DhruvilPatel603?tab=overview">
+    <img src="./assets/live-feed.svg" width="100%" alt="Live GitHub Activity and Recent PRs Feed" />
+  </a>
 </div>
 
 <br/>
