@@ -449,7 +449,7 @@ def build_live_feed_svg(prs: list[dict], commits: list[dict]) -> str:
 
   <!-- Top Bar -->
   <circle class="live-dot" cx="28" cy="28" r="4.5" fill="#10b981"/>
-  <text class="mono" x="42" y="32" font-size="12" fill="#e2e8f0" letter-spacing="1.2">LIVE_ACTIVITY_STREAM // <tspan fill="#00f0ff">AUTO_SYNC_12H</tspan></text>
+  <text class="mono" x="42" y="32" font-size="12" fill="#e2e8f0" letter-spacing="1.2">LIVE_ACTIVITY_STREAM</text>
   <text class="mono" x="1174" y="32" text-anchor="end" font-size="11" fill="#64748b">LATEST_EVENT: <tspan fill="#94a3b8">{esc(latest_ts)}</tspan></text>
 
   <!-- Column Headers -->
