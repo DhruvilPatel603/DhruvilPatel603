@@ -22,10 +22,10 @@
     <text class="mono" x="62" y="18" text-anchor="middle" font-size="11.5" font-weight="700" fill="#10b981">10 MERGED</text>
 
     <rect x="134" y="0" width="110" height="28" rx="7" fill="#0f172a" stroke="#00f0ff" stroke-opacity="0.55"/>
-    <text class="mono" x="189" y="18" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00f0ff">3 OPEN</text>
+    <text class="mono" x="189" y="18" text-anchor="middle" font-size="11.5" font-weight="700" fill="#00f0ff">2 OPEN</text>
 
     <rect x="254" y="0" width="118" height="28" rx="7" fill="#0f172a" stroke="#64748b" stroke-opacity="0.55"/>
-    <text class="mono" x="313" y="18" text-anchor="middle" font-size="11.5" font-weight="700" fill="#94a3b8">1 CLOSED</text>
+    <text class="mono" x="313" y="18" text-anchor="middle" font-size="11.5" font-weight="700" fill="#94a3b8">2 CLOSED</text>
 
     <rect x="382" y="0" width="136" height="28" rx="7" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.55"/>
     <text class="mono" x="450" y="18" text-anchor="middle" font-size="11.5" font-weight="700" fill="#c4b5fd">3 UPSTREAM</text>
