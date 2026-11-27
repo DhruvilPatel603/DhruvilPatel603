@@ -66,61 +66,11 @@
 
 <br/>
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <h4><code>01 // CORE_LANGUAGES</code></h4>
-      <p>
-        <img src="https://skillicons.dev/icons?i=cpp,python,js,kotlin,php&theme=dark" alt="Languages" />
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/C++-090D16?style=flat-square&logo=cplusplus&logoColor=00F0FF" alt="C++" />
-        <img src="https://img.shields.io/badge/Python-090D16?style=flat-square&logo=python&logoColor=38BDF8" alt="Python" />
-        <img src="https://img.shields.io/badge/JavaScript-090D16?style=flat-square&logo=javascript&logoColor=FACC15" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Kotlin-090D16?style=flat-square&logo=kotlin&logoColor=8B5CF6" alt="Kotlin" />
-        <img src="https://img.shields.io/badge/PHP-090D16?style=flat-square&logo=php&logoColor=C4B5FD" alt="PHP" />
-      </p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <h4><code>02 // MOBILE_&_FRONTEND</code></h4>
-      <p>
-        <img src="https://skillicons.dev/icons?i=androidstudio,flutter,html,css&theme=dark" alt="Mobile and Frontend" />
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Jetpack_Compose-090D16?style=flat-square&logo=jetpackcompose&logoColor=00F0FF" alt="Jetpack Compose" />
-        <img src="https://img.shields.io/badge/MVVM-090D16?style=flat-square&logo=android&logoColor=10B981" alt="MVVM" />
-        <img src="https://img.shields.io/badge/Chrome_Extensions-090D16?style=flat-square&logo=googlechrome&logoColor=38BDF8" alt="Chrome Extensions" />
-        <img src="https://img.shields.io/badge/Bootstrap-090D16?style=flat-square&logo=bootstrap&logoColor=8B5CF6" alt="Bootstrap" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <h4><code>03 // BACKEND_&_DATA_CORE</code></h4>
-      <p>
-        <img src="https://skillicons.dev/icons?i=nodejs,express,mysql,firebase&theme=dark" alt="Backend and Databases" />
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-090D16?style=flat-square&logo=nodedotjs&logoColor=10B981" alt="Node.js" />
-        <img src="https://img.shields.io/badge/Express-090D16?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express" />
-        <img src="https://img.shields.io/badge/LAMP_Stack-090D16?style=flat-square&logo=linux&logoColor=00F0FF" alt="LAMP Stack" />
-        <img src="https://img.shields.io/badge/Multi--Tenant_APIs-090D16?style=flat-square&logo=fastapi&logoColor=F43F8E" alt="Multi-Tenant APIs" />
-      </p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <h4><code>04 // AI_PIPELINES_&_TOOLING</code></h4>
-      <p>
-        <img src="https://skillicons.dev/icons?i=flask,git,github,vscode,linux&theme=dark" alt="AI and Tooling" />
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/LangChain-090D16?style=flat-square&logo=langchain&logoColor=00F0FF" alt="LangChain" />
-        <img src="https://img.shields.io/badge/OpenAI_API-090D16?style=flat-square&logo=openai&logoColor=8B5CF6" alt="OpenAI" />
-        <img src="https://img.shields.io/badge/Pinecone-090D16?style=flat-square&logo=pinecone&logoColor=38BDF8" alt="Pinecone" />
-        <img src="https://img.shields.io/badge/HuggingFace-090D16?style=flat-square&logo=huggingface&logoColor=FACC15" alt="HuggingFace" />
-      </p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/stack-languages.svg" width="49.2%" alt="01 // Core Languages" />&nbsp;<img src="./assets/stack-mobile.svg" width="49.2%" alt="02 // Mobile and Frontend" />
+  <br/>
+  <img src="./assets/stack-backend.svg" width="49.2%" alt="03 // Backend and Data Core" />&nbsp;<img src="./assets/stack-ai.svg" width="49.2%" alt="04 // AI Pipelines and Tooling" />
+</div>
 
 <br/>
 

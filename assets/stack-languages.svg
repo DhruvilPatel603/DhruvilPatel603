@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 202" width="100%" role="img" aria-label="Languages &amp; Foundations">
+  <defs>
+    <linearGradient id="stBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0d1323"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', ui-monospace, Menlo, Consolas, monospace; }
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .st-dot { animation: stPulse 2.2s ease-in-out infinite; }
+    @keyframes stPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+  </style>
+
+  <rect x="2" y="2" width="556" height="198" rx="14" fill="url(#stBg)" stroke="#1e293b" stroke-width="1.5"/>
+  <rect x="24" y="2" width="128" height="3.5" rx="1.5" fill="#00f0ff"/>
+  <path d="M540 20 L540 12 L532 12" fill="none" stroke="#00f0ff" stroke-width="1.8"/>
+
+  <!-- Header -->
+  <text class="mono" x="24" y="30" font-size="11" fill="#00f0ff" letter-spacing="1.2">MODULE_01 // CORE</text>
+  <text class="sans" x="24" y="50" font-size="16.5" font-weight="800" fill="#f8fafc">Languages &amp; Foundations</text>
+
+  <circle class="st-dot" cx="468" cy="28" r="3.5" fill="#10b981"/>
+  <text class="mono" x="478" y="32" font-size="10.5" fill="#64748b">LOADED</text>
+
+  <!-- Tech Icon Tiles -->
+  <rect x="88.0" y="66" width="64" height="62" rx="12" fill="#0d1424" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4"/><rect x="102.0" y="66" width="36" height="2.5" rx="1.2" fill="#38bdf8"/><text class="mono" x="120.0" y="98" text-anchor="middle" font-size="16" font-weight="800" fill="#38bdf8">C++</text><text class="mono" x="120.0" y="117" text-anchor="middle" font-size="9.5" fill="#94a3b8">Systems</text><rect x="168.0" y="66" width="64" height="62" rx="12" fill="#0d1424" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="1.4"/><rect x="182.0" y="66" width="36" height="2.5" rx="1.2" fill="#60a5fa"/><text class="mono" x="200.0" y="98" text-anchor="middle" font-size="16" font-weight="800" fill="#60a5fa">PY</text><text class="mono" x="200.0" y="117" text-anchor="middle" font-size="9.5" fill="#94a3b8">Python</text><rect x="248.0" y="66" width="64" height="62" rx="12" fill="#0d1424" stroke="#facc15" stroke-opacity="0.55" stroke-width="1.4"/><rect x="262.0" y="66" width="36" height="2.5" rx="1.2" fill="#facc15"/><text class="mono" x="280.0" y="98" text-anchor="middle" font-size="16" font-weight="800" fill="#facc15">JS</text><text class="mono" x="280.0" y="117" text-anchor="middle" font-size="9.5" fill="#94a3b8">ES2024</text><rect x="328.0" y="66" width="64" height="62" rx="12" fill="#0d1424" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="1.4"/><rect x="342.0" y="66" width="36" height="2.5" rx="1.2" fill="#a78bfa"/><text class="mono" x="360.0" y="98" text-anchor="middle" font-size="16" font-weight="800" fill="#a78bfa">KT</text><text class="mono" x="360.0" y="117" text-anchor="middle" font-size="9.5" fill="#94a3b8">Kotlin</text><rect x="408.0" y="66" width="64" height="62" rx="12" fill="#0d1424" stroke="#818cf8" stroke-opacity="0.55" stroke-width="1.4"/><rect x="422.0" y="66" width="36" height="2.5" rx="1.2" fill="#818cf8"/><text class="mono" x="440.0" y="98" text-anchor="middle" font-size="16" font-weight="800" fill="#818cf8">PHP</text><text class="mono" x="440.0" y="117" text-anchor="middle" font-size="9.5" fill="#94a3b8">Backend</text>
+
+  <!-- Capability Pills -->
+  <rect x="93.4" y="150" width="92.0" height="24" rx="6" fill="#050811" stroke="#00f0ff" stroke-opacity="0.4"/><text class="mono" x="139.4" y="166" text-anchor="middle" font-size="10.5" fill="#cbd5e1">Algorithms</text><rect x="193.4" y="150" width="84.8" height="24" rx="6" fill="#050811" stroke="#00f0ff" stroke-opacity="0.4"/><text class="mono" x="235.8" y="166" text-anchor="middle" font-size="10.5" fill="#cbd5e1">Scripting</text><rect x="286.2" y="150" width="106.4" height="24" rx="6" fill="#050811" stroke="#00f0ff" stroke-opacity="0.4"/><text class="mono" x="339.4" y="166" text-anchor="middle" font-size="10.5" fill="#cbd5e1">Web &amp; Mobile</text><rect x="400.6" y="150" width="66.0" height="24" rx="6" fill="#050811" stroke="#00f0ff" stroke-opacity="0.4"/><text class="mono" x="433.6" y="166" text-anchor="middle" font-size="10.5" fill="#cbd5e1">OOP</text>
+</svg>
